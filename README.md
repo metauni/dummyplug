@@ -17,7 +17,7 @@ A user with dummy plug privileges, who is attached to an [orb](https://github.co
 
 The dummy plug will pause recording when the speaker detaches from the orb, and will resume recording when they reattach, until it is dismissed by the speaker at which point it will return to Step 2.
 
-6. Completed videos are moved to an S3 bucket and a URL for download is sent (via the Discord bot) to the Discord account of the speaker (who must have registered in Discord with their Roblox username).
+6. Completed videos are moved to an S3 bucket and a URL for download is either posted to a dedicated Discord channel or sent (via the Discord bot) to the Discord account of the speaker (who must have registered in Discord with their Roblox username).
 
 Throughout this process somebody has to have their local machine connected via RDP to the GCP instance (but beyond keeping this connection alive they do not need to manually do anything). It may be technically more difficult to run this completely headless (see below).
 
