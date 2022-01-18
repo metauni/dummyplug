@@ -5,7 +5,7 @@ The aim of the dummy plug system is to make it trivial to record high-quality au
 Using Apple Remote Desktop you log into the dummy plug and
 
 1. Run the keepalive script in Automator
-2. Start recording in OBS Studio
+2. Start recording in OBS Studio (or equivalent software, such as Camtasia)
 3. Join the experience where the first recording is to take place
 
 From there the scripts in Roblox take over. They contain a schedule of times, place IDs and orb names, that tell the scripts (in each of the worlds visited by the dummy plug) when to teleport the dummy plug to the experience for the next talk, and which orb to attach to as a listener when it gets there. The dummy plug will report its status regularly (and particularly around server changes) via the Discord bot into the `#dummy-plug` channel of Discord for remote monitoring.
