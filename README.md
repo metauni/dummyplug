@@ -1,10 +1,8 @@
 # Dummy Plug
 
-Cloud-based automated recording and streaming of metauni events.
+Automated record metauni events.
 
-The aim of the dummy plug system is to make it trivial to both record and stream high-quality audio and video of metauni events. The system consists of OBS ([Open Broadcaster Software](https://obsproject.com)) and Windows PowerShell scripts running on a Google Cloud Platform (GCP) instance with a T4 NVIDIA GPU (using the `nvidia-gaming-windows-server-2019-1-vm` image), and some Luau scripts running on the Roblox server.
-
-When the dummy plug (= the GCP instance) is turned on and you connect to it with Remote Desktop with your local machine, there is a script on the desktop which you run that will automatically do the following:
+The aim of the dummy plug system is to make it trivial to record high-quality audio and video of metauni events. The system consists of OBS ([Open Broadcaster Software](https://obsproject.com)) and Mac Automator scripts, which are intended to run either on a personal machine or a cloud instance. When the dummy plug (= the machine running OBS and the scripts) is activated it will automatically do the following:
 
 1. Start Roblox and join the metauni Hub with a dedicated dummy plug account.
 2. Waits for instructions (the dummy plug will attempt to stay in the Hub by sending keystrokes and rejoin if it is disconnected).
@@ -27,9 +25,7 @@ Running [OBS on a GCP machine](https://obsproject.com/forum/threads/running-obs-
 
 * **Where do the dummy plug accounts come from?** Since they have to be spatial voice enabled, these accounts have to be age-verified. For the time being these will be accounts belonging to metauni administrators that are available for recording. Roblox's Terms of Use [terms of use](https://en.help.roblox.com/hc/en-us/articles/115004647846-Roblox-Terms-of-Use) explicitly say "You may never allow anyone else to use your Account (except your parents or legal guardian)" so users can't provide "camera alt" account details to us to use on their behalf.
 
-## First trial
-
-The first trial will be running on my Windows laptop rather than a cloud machine, but will otherwise be as described above. 
+* Initial trial system: running on a Google Cloud Platform (GCP) instance with a T4 NVIDIA GPU (using the `nvidia-gaming-windows-server-2019-1-vm` image), and some Luau scripts running on the Roblox server.
 
 ## Headless mode?
 
