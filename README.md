@@ -17,6 +17,8 @@ Some remarks
 - If the dummy plug leaves any experience outside of the schedule (e.g. it has an Internet connection problem) this will be reported to the Discord channel.
 - The dummy plug may have a spatial voice problem, at the moment it is not clear that we can do anything about that.
 
+**WARNING**: At the moment the dummy plug has many shortcomings, and it should be used as a backup only.
+
 ## FAQ
 
 * **Where do the dummy plug accounts come from?** Since they have to be spatial voice enabled, these accounts have to be age-verified. For the time being these will be accounts belonging to metauni administrators that are available for recording. Roblox's Terms of Use [terms of use](https://en.help.roblox.com/hc/en-us/articles/115004647846-Roblox-Terms-of-Use) explicitly say "You may never allow anyone else to use your Account (except your parents or legal guardian)" so users can't provide "camera alt" account details to us to use on their behalf.
