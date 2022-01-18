@@ -13,7 +13,7 @@ From there the scripts in Roblox take over. They contain a schedule of times, pl
 Some remarks
 
 - The initial version will not automatically start/stop the OBS recording, so for a long recording session you may want to log in midway through using Apple Remote Desktop and split the OBS video.
-- It is possible that during the teleport the dummy plug ends up in a non-primary version of the server. This will be reported to the Discord channel.
+- It is possible that during the teleport the dummy plug ends up in a non-primary version of the server. This will be reported to the Discord channel. If the ServerUniq scripts are working correctly this should not be a problem.
 - If the dummy plug leaves any experience outside of the schedule (e.g. it has an Internet connection problem) this will be reported to the Discord channel.
 - The dummy plug may have a spatial voice problem, I'm not sure what to do about that.
 
